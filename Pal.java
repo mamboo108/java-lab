@@ -14,7 +14,7 @@ class Pal
             rev=rev*10+rem;
             num=num/10;
         }
-        if(temp==num)
+        if(temp==rev)
         {
             System.out.println("The number is a Palindrome");
             
