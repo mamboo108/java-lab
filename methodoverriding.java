@@ -32,9 +32,9 @@ public class Main
 {
     public static void main(String args[])
     {
-        rectangle rec= new rectangle();
-        triangle tri= new triangle();
-        hexagon hex= new hexagon();
+        Shape rec= new rectangle();
+        Shape tri= new triangle();
+        Shape hex= new hexagon();
         rec.numberofsides();
         tri.numberofsides();
         hex.numberofsides();
